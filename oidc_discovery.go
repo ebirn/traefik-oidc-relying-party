@@ -75,6 +75,7 @@ type OIDCDiscovery struct {
 	RevocationEndpoint                                        string     `json:"revocation_endpoint"`
 	RevocationEndpointAuthMethodsSupported                    []string   `json:"revocation_endpoint_auth_methods_supported"`
 	RevocationEndpointAuthSigningAlgValuesSupported           []string   `json:"revocation_endpoint_auth_signing_alg_values_supported"`
+	ServiceDocumentation                                      string     `json:"service_documentation"`
 	ScopesSupported                                           []string   `json:"scopes_supported"`
 	SubjectTypesSupported                                     []string   `json:"subject_types_supported"`
 	TenantRegionScope                                         string     `json:"tenant_region_scope"`
